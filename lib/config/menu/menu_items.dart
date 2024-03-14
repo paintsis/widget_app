@@ -43,5 +43,20 @@ const appMenuItem = <MenuItem>[
       title: 'UI Controls + Tiles',
       subTitle: 'Una serie de controles con flutters',
       link: '/ui-controls',
-      icon: Icons.car_rental_outlined)
+      icon: Icons.car_rental_outlined),
+  MenuItem(
+      title: 'Introudccin  a la aplicacion',
+      subTitle: 'Una serie de controles con flutters',
+      link: '/tutorial',
+      icon: Icons.accessible_rounded),
+  MenuItem(
+      title: 'InfiniteScroll y Pull',
+      subTitle: 'Listas infinitas y pull to refresh',
+      link: '/infinite',
+      icon: Icons.list_alt_rounded),
+  MenuItem(
+      title: 'Counter Riverpod',
+      subTitle: 'riverpod',
+      link: '/counter',
+      icon: Icons.add)
 ];
