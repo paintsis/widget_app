@@ -58,5 +58,10 @@ const appMenuItem = <MenuItem>[
       title: 'Counter Riverpod',
       subTitle: 'riverpod',
       link: '/counter',
-      icon: Icons.add)
+      icon: Icons.add),
+  MenuItem(
+      title: 'Theme Changer',
+      subTitle: 'riverpod',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined)
 ];
